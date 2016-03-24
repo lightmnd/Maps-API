@@ -434,14 +434,6 @@
 	<Document>
 		<name>zona gialla.kml</name>
 		<open>1</open>
-		<Style id="poly-F4EB37-1-76-normal">
-			<LineStyle>
-				<color>ff37ebf4</color>
-			</LineStyle>
-			<PolyStyle>
-				<color>4c37ebf4</color>
-			</PolyStyle>
-		</Style>
 		<Style id="sn_ylw-pushpin6">
 			<IconStyle>
 				<scale>1.1</scale>
@@ -468,15 +460,6 @@
 				<styleUrl>#sh_ylw-pushpin6</styleUrl>
 			</Pair>
 		</StyleMap>
-		<Style id="poly-F4EB37-1-76-highlight">
-			<LineStyle>
-				<color>ff37ebf4</color>
-				<width>2</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4c37ebf4</color>
-			</PolyStyle>
-		</Style>
 		<Style id="sh_ylw-pushpin6">
 			<IconStyle>
 				<scale>1.3</scale>
@@ -493,20 +476,40 @@
 				<color>7d7fffff</color>
 			</PolyStyle>
 		</Style>
-		<StyleMap id="poly-F4EB37-1-76">
+		<StyleMap id="msn_ylw-pushpin7">
 			<Pair>
 				<key>normal</key>
-				<styleUrl>#poly-F4EB37-1-76-normal</styleUrl>
+				<styleUrl>#sn_ylw-pushpin7</styleUrl>
 			</Pair>
 			<Pair>
 				<key>highlight</key>
-				<styleUrl>#poly-F4EB37-1-76-highlight</styleUrl>
+				<styleUrl>#sh_ylw-pushpin7</styleUrl>
 			</Pair>
 		</StyleMap>
+		<Style id="sn_ylw-pushpin7">
+			<LineStyle>
+				<color>ff37ebf4</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>4c37ebf4</color>
+			</PolyStyle>
+		</Style>
+		<Style id="sh_ylw-pushpin7">
+			<LineStyle>
+				<color>ff37ebf4</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4c37ebf4</color>
+			</PolyStyle>
+		</Style>
 		<Placemark>
 			<name>Zona gialla: Arcella, Mortise, Stanga, Forcellini, San Osvaldo, Città Giardino, Sacra Famiglia, San Giuseppe</name>
-			<description>http://www.gruppohera.it/clienti/casa/casa_servizio_ambiente/casa_aaa_ambiente_raccolta_differenziata/casa_aaa_ambiente_gialla/</description>
-			<styleUrl>#poly-F4EB37-1-76</styleUrl>
+			<description><![CDATA[
+Zona gialla: Arcella, Mortise, Stanga, Forcellini, San Osvaldo, Città Giardino, Sacra Famiglia, San Giuseppe
+
+<a href="http://www.gruppohera.it/clienti/casa/casa_servizio_ambiente/casa_aaa_ambiente_raccolta_differenziata/casa_aaa_ambiente_gialla/">http://www.gruppohera.it/clienti/casa/casa_servizio_ambiente/casa_aaa_ambiente_raccolta_differenziata/casa_aaa_ambiente_gialla/</a>]]></description>
+			<styleUrl>#msn_ylw-pushpin7</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
