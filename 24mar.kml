@@ -35,7 +35,7 @@
 	<StyleMap id="msn_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -45,11 +45,11 @@
 	<StyleMap id="msn_ylw-pushpin1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_ylw-pushpin0">
@@ -72,6 +72,15 @@
 	</Style>
 	<Style id="sn_ylw-pushpin1">
 		<LineStyle>
+			<color>ff37ebf4</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f37ebf4</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<LineStyle>
 			<color>ff0055aa</color>
 			<width>3</width>
 		</LineStyle>
@@ -88,17 +97,7 @@
 			<color>7fcfa4c6</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin2">
+	<Style id="sn_ylw-pushpin3">
 		<LineStyle>
 			<color>ffcfa4c6</color>
 			<width>2</width>
@@ -116,6 +115,16 @@
 			<color>7ff08641</color>
 		</PolyStyle>
 	</Style>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_ylw-pushpin2">
 		<LineStyle>
 			<color>ff0055aa</color>
@@ -138,14 +147,14 @@
 	<StyleMap id="msn_ylw-pushpin4">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ylw-pushpin3">
+	<Style id="sn_ylw-pushpin4">
 		<LineStyle>
 			<color>ff7faaff</color>
 			<width>3</width>
@@ -154,7 +163,7 @@
 			<color>7d7faaff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin4">
+	<Style id="sn_ylw-pushpin5">
 		<LineStyle>
 			<color>ff969cee</color>
 			<width>2</width>
@@ -172,31 +181,22 @@
 			<color>7d7faaff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin5">
-		<LineStyle>
-			<color>ff37ebf4</color>
-			<width>3</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>7f37ebf4</color>
-		</PolyStyle>
-	</Style>
 	<Style id="sh_ylw-pushpin4">
-		<LineStyle>
-			<color>ff37ebf4</color>
-			<width>5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>7f37ebf4</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin5">
 		<LineStyle>
 			<color>ff969cee</color>
 			<width>3</width>
 		</LineStyle>
 		<PolyStyle>
 			<color>7f969cee</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<LineStyle>
+			<color>ff37ebf4</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f37ebf4</color>
 		</PolyStyle>
 	</Style>
 	<Style id="failed">
@@ -210,7 +210,7 @@
 	<StyleMap id="msn_ylw-pushpin5">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -232,6 +232,7 @@
 			<name>S. Ignazio, parte di Chiesanuova, parte di Brusegana</name>
 			<description>nuova pagina, titolo: San Ignazio, Chiesanuova, Brusegana: raccolta differenziata &quot;porta a porta&quot;</description>
 			<styleUrl>#poly-A61B4A-3-127</styleUrl>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -249,7 +250,9 @@
 		<open>1</open>
 		<Placemark>
 			<name>Guizza zona nord</name>
-			<description><![CDATA[<a href="http://www.gruppohera.it/clienti/casa/casa_servizio_ambiente/casa_aaa_ambiente_raccolta_differenziata/casa_aaa_ambiente_gialla/">http://www.gruppohera.it/clienti/casa/casa_servizio_ambiente/casa_aaa_ambiente_raccolta_differenziata/casa_aaa_ambiente_gialla/</a>]]></description>
+			<description><![CDATA[<p style="font-sixe:18px;">Guizza zona nord</p>
+
+<a href="http://www.gruppohera.it/clienti/casa/casa_servizio_ambiente/casa_aaa_ambiente_raccolta_differenziata/casa_aaa_ambiente_gialla/">http://www.gruppohera.it/clienti/casa/casa_servizio_ambiente/casa_aaa_ambiente_raccolta_differenziata/casa_aaa_ambiente_gialla/</a>]]></description>
 			<styleUrl>#msn_ylw-pushpin2</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
@@ -503,7 +506,6 @@
 		</StyleMap>
 		<Placemark>
 			<name>Zona gialla: Arcella, Mortise, Stanga, Forcellini, San Osvaldo, Città Giardino, Sacra Famiglia, San Giuseppe</name>
-			<visibility>0</visibility>
 			<description>http://www.gruppohera.it/clienti/casa/casa_servizio_ambiente/casa_aaa_ambiente_raccolta_differenziata/casa_aaa_ambiente_gialla/</description>
 			<styleUrl>#poly-F4EB37-1-76</styleUrl>
 			<Polygon>
